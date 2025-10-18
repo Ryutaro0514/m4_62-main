@@ -1,0 +1,4 @@
+m4_c.mp4は下記URLを指定して表示させること
+（「m4/public」フォルダ内にアップしないこと）
+
+http://guide.skilljapan.info/m4/m4_c.mp4

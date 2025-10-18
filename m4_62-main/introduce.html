@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduce</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="introduce.css">
+</head>
+
+<body>
+    <img src="./images/2867736_l.jpg" class="back" alt="">
+    <header>
+        <h1 class="logo">LOGOTETS</h1>
+
+        <div class="menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <nav class="nav">
+            <a class="link" href="./index.html">Top</a>
+            <a class="link" href="./introduce.html">Introduce</a>
+            <a class="link" href="./form.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <p class="title">事例紹介</p>
+
+        <p class="heading">オールインワンプラン </p>
+
+        <div class="slide">
+            <div class="imgs">
+                <div class="slide-btn prev" onclick="transferSlide('prev')"></div>
+                <div class="slide-btn next" onclick="transferSlide('next')"></div>
+
+                <img src="./slide/m4_a.png" alt="" class="slide-img slide-img1">
+                <img src="./slide/m4_b.png" alt="" class="slide-img slide-img2">
+                <video src="./slide/m4_c.mp4" class="slide-img slide-img3" controls></video>
+            </div>
+            <div class="btns">
+                <div class="btn btn1" onclick="selectSlide(0)"></div>
+                <div class="btn btn2" onclick="selectSlide(1)"></div>
+                <div class="btn btn3" onclick="selectSlide(2)"></div>
+            </div>
+        </div>
+
+        <p class="text">
+            会場全体を一目で把握できる大型マップ<br>
+            総合案内所で来場者をお迎えするのは、使いやすさにこだわったデジタルマップです。<br>
+            タッチパネル式で、会場内のどのエリアに何があるかを手軽にチェックできます。<br>
+            さらに、選択したエリアやブースについての詳細情報もその場で表示され、ブースの特徴や出展企業の情報まで確認可能です。<br>
+            リアルタイムで更新されるため、直前の変更にも柔軟に対応し、展示会を訪れる方々に快適で効率的な体験を提供します。
+        </p>
+
+        <p class="footer">© 2024 Iconic & Reach Inc.</p>
+    </main>
+
+    <script src="./index.js"></script>
+    <script src="./slide.js"></script>
+</body>
+
+</html>

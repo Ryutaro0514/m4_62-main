@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <img src="./images/2867736_l.jpg"class="back" alt="">
+    <header>
+        <h1 class="logo">LOGO</h1>
+
+        <div class="menu">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+
+        <nav class="nav">
+            <a class="link" href="./index.html">Top</a>
+            <a class="link" href="./introduce.html">Introduce</a>
+            <a class="link" href="./form.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <p class="title" class="text">お問い合わせはこちらからお願いいたします。<br>内容を確認のうえ、担当者より折り返しご連絡いたします。</p>
+
+        <div class="form">
+            <form action="">
+                <p class="column-title">法人名<span>（必須）</span></p><br>
+                <input type="text" required>
+                <p class="column-title">名前<span>（必須）</span></p><br>
+                <input type="text" required>
+                <p class="column-title">フリガナ<span>（必須）</span></p><br>
+                <input type="text" required>
+                <p class="column-title">電話番号<span>（必須）</span></p><br>
+                <input type="tel" required>
+                <p class="column-title">メールアドレス<span>（必須）</span></p><br>
+                <input type="email" required>
+                <p class="column-title">お問い合わせ種別<span>（必須）</span></p><br>
+                <select name="" id="">
+                    <option value="">お見積もり希望</option>
+                    <option value="">概要説明、デモ希望</option>
+                    <option value="">資料請求</option>
+                    <option value="">機材に関するお問い合わせ</option>
+                    <option value="">コンテンツ制作の相談</option>
+                </select>
+                <p class="column-title">お問い合わせ内容</p><br>
+                <input type="text">
+
+            </form>
+        </div>
+        <button class="submit-btn">送信</button>
+
+        <p class="footer">© 2024 Iconic & Reach Inc.</p>
+    </main>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

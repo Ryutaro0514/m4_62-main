@@ -1,0 +1,135 @@
+.catch-copy {
+    padding: 70px 0;
+    line-height: 2.5;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.catch-copy span {
+    font-size: 3.5rem;
+    background: url('./images/27965900_l.jpg');
+    background-size: cover;
+    /* -webkit-background-clip: text;  */
+    background-clip: text;
+    color: transparent;
+    font-weight: 900;
+}
+
+.intr-img {
+    display: block;
+    width: 70%;
+    margin: auto;
+}
+
+.intr-text {
+    margin: 30px 10px;
+    text-align: center;
+    line-height: 4;
+}
+
+.intr-text span {
+    font-size: 2rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    margin-top: 80px;
+}
+
+.contents {
+    width: 100%;
+    height: 450px;
+    margin: 50px 0;
+    position: relative;
+}
+
+input {
+    display: none;
+}
+
+label {
+    position: absolute;
+    top: 0;
+    translate: -50% 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid black;
+    cursor: pointer;
+}
+
+label:nth-of-type(1) {
+    left: 20%;
+}
+
+label:nth-of-type(2) {
+    left: 50%;
+}
+
+label:nth-of-type(3) {
+    left: 80%;
+}
+
+input:checked+label {
+    background-color: black;
+    color: white;
+}
+
+.content {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    /* text-align: center; */
+    opacity: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#content1:checked+label~.content1 {
+    opacity: 1;
+}
+
+#content2:checked+label~.content2 {
+    opacity: 1;
+}
+
+#content3:checked+label~.content3 {
+    opacity: 1;
+}
+
+.cont-title {
+    font-size: 1.3rem;
+    margin: 20px 0;
+}
+
+.cont-text {
+    padding: 0 30px;
+}
+
+.cont-img {
+    display: block;
+    height: 200px;
+    margin: 20px;
+}
+
+.to-form-btn {
+    border: 3px solid black;
+    padding: 20px 30px;
+    border-radius: 100px;
+    margin: 80px 0 50px 0;
+    transition: .3s;
+    background-color: transparent;
+    border: 3px solid black;
+    color: black;
+}
+
+.to-form-btn:hover {
+    background-color: black;
+    color: white;
+}

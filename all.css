@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "kirei";
+    src: url(./ZenOldMincho-Black.ttf);
+}
+
+span {
+    font-size: 2.5rem;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+* {
+    font-family: "kirei";
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    width: 100vw;
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+
+.logo {
+    margin: 10px;
+}
+
+main {
+    margin-bottom: 50px;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 50px;
+    bottom: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media screen and (max-width:418px) {
+    header {
+        font-size: 1rem;
+    }
+
+    .content {
+        margin: 20px auto;
+        padding: 0 2vw;
+    }
+
+    .tab-label {
+        padding: 12px 0;
+        font-size: 0.92rem;
+    }
+
+    .tab-panel {
+        padding: 16px 6px;
+        font-size: 0.95rem;
+    }
+}
