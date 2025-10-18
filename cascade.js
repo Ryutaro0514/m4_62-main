@@ -6,14 +6,6 @@ let fripIndex = 0;
 function frip(index) {
   img.forEach((item, i) => {
     item.style.display = i === index ? "block" : "none";
-    if (item.tagName.toLowerCase() === "video") {
-      if (i === index) {
-        item.currentTime = 0;
-        item.play();
-      } else {
-        item.pause();
-      }
-    }
   });
   fripIndex = index;
 }
